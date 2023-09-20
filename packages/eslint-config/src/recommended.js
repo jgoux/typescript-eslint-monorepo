@@ -4,7 +4,7 @@ import globals from "globals";
 
 export const recommended = [
   {
-    files: ["**/*.{js,cjs,mjs,jsx,cjsx,mjsx,ts,cts,mts,tsx,ctsx,mtsx}"],
+    files: ["**/*.{js,ts}"],
     ignores: [".dts/**", "dist/**"],
     languageOptions: {
       globals: {
