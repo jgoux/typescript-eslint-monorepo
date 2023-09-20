@@ -1,0 +1,22 @@
+{
+  "name": "acme",
+  "type": "module",
+  "version": "1.0.0",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "dependencies": {
+    "@acme/api": "workspace:*"
+  },
+  "devDependencies": {
+    "@acme/eslint-config": "workspace:*",
+    "@acme/tsconfig": "workspace:*",
+    "@types/node": "18.17.15",
+    "eslint": "8.49.0",
+    "typescript": "5.2.2"
+  },
+  "scripts": {
+    "lint": "eslint --cache . --report-unused-disable-directives --max-warnings 0",
+    "type-check": "tsc --build"
+  }
+}

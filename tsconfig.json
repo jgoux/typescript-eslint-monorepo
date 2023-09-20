@@ -1,0 +1,18 @@
+{
+  "extends": "@acme/tsconfig",
+  "compilerOptions": {
+    "outDir": ".dts",
+  },
+  "references": [
+    {
+      "path": "./apps/api"
+    },
+    {
+      "path": "./apps/cli"
+    },
+  ],
+  "exclude": [
+    "./apps",
+    "./packages"
+  ]
+}
