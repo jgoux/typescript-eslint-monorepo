@@ -1,3 +1,5 @@
-import { type ESLint } from "eslint";
+import type { ESLint } from "eslint";
 
-declare export const recommended: Array<ESLint.ConfigData>;
+declare const recommended: Array<ESLint.ConfigData>;
+
+export { recommended };

@@ -11,7 +11,10 @@ pnpm -F api lint
 /Users/jgoux/Documents/code/eslint-typescript-monorepo/apps/api/eslint.config.js
   3:17  error  Unsafe spread of an `any` value in an array  @typescript-eslint/no-unsafe-assignment
 
-✖ 1 problem (1 error, 0 warnings)
+/Users/jgoux/Documents/code/eslint-typescript-monorepo/apps/api/src/index.ts
+  5:13  error  Unsafe spread of an `any` array type  @typescript-eslint/no-unsafe-argument
+
+✖ 2 problems (2 errors, 0 warnings)
 ```
 
 # Config files
