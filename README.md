@@ -1,3 +1,7 @@
+# Issue
+
+The package `@acme/eslint-config` is seen as untyped by `@typescript-eslint/eslint-plugin`.
+
 # Getting started
 
 ```bash
